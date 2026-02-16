@@ -1,0 +1,272 @@
+[
+  {
+    "id": 0,
+    "word": "venture",
+    "translation": "להסתכן, סיכון",
+    "example": "He decided to venture into the forest alone despite the danger"
+  },
+  {
+    "id": 1,
+    "word": "strain",
+    "translation": "להתאמץ, מאמץ, צאצא",
+    "example": "The heavy workload began to strain his mental health"
+  },
+  {
+    "id": 2,
+    "word": "sage",
+    "translation": "חכם, משכיל",
+    "example": "The old sage gave wise advice to the young king"
+  },
+  {
+    "id": 3,
+    "word": "rural",
+    "translation": "כפרי",
+    "example": "She grew up in a quiet rural village surrounded by farms"
+  },
+  {
+    "id": 4,
+    "word": "rigorous",
+    "translation": "קפדני",
+    "example": "The university has a rigorous training program for its students"
+  },
+  {
+    "id": 5,
+    "word": "prosper",
+    "translation": "לשגשג",
+    "example": "Small businesses can prosper when the economy is stable"
+  },
+  {
+    "id": 6,
+    "word": "pest",
+    "translation": "מטרד",
+    "example": "Mosquitoes can be a serious pest during the summe"
+  },
+  {
+    "id": 7,
+    "word": "obscure",
+    "translation": "לא ברור, מעורפל",
+    "example": "The meaning of the poem was too obscure for most readers to understand"
+  },
+  {
+    "id": 8,
+    "word": "moratorium",
+    "translation": "דחייה (לרוב לגבי תשלום)",
+    "example": "The government announced a moratorium on new construction projects"
+  },
+  {
+    "id": 9,
+    "word": "monetary",
+    "translation": "כספי",
+    "example": "The central bank introduced new monetary policies to control inflation"
+  },
+  {
+    "id": 10,
+    "word": "modulation",
+    "translation": "ויסות, כוונון",
+    "example": "The modulation of her voice made the speech more engaging and emotional"
+  },
+  {
+    "id": 11,
+    "word": "linger",
+    "translation": "להתמהמה",
+    "example": "The smell of fresh coffee continued to linger in the room"
+  },
+  {
+    "id": 12,
+    "word": "intersection",
+    "translation": "צומת, הצטלבות",
+    "example": "There was a traffic accident at the busy intersection downtown"
+  },
+  {
+    "id": 13,
+    "word": "hinder",
+    "translation": "למנוע, לעכב",
+    "example": "Lack of preparation can hinder your performance on the exam"
+  },
+  {
+    "id": 14,
+    "word": "exert",
+    "translation": "להפעיל, מאמץ",
+    "example": "You must exert more effort if you want to improve your results"
+  },
+  {
+    "id": 15,
+    "word": "enhance",
+    "translation": "לשפר, להעצים",
+    "example": "Regular practice can enhance your language skills"
+  },
+  {
+    "id": 16,
+    "word": "diminish",
+    "translation": "להפחית",
+    "example": "The noise gradually began to diminish after midnight"
+  },
+  {
+    "id": 17,
+    "word": "courteous",
+    "translation": "אדיב",
+    "example": "The waiter was polite and courteous to all the guests"
+  },
+  {
+    "id": 18,
+    "word": "competent",
+    "translation": "בעל יכולת, כשיר",
+    "example": "She is a highly competent engineer with years of experience"
+  },
+  {
+    "id": 19,
+    "word": "barter",
+    "translation": "להתמקח",
+    "example": "In ancient times, people used to barter goods instead of using money"
+  },
+  {
+    "id": 20,
+    "word": "weave",
+    "translation": "לארוג, לרקום",
+    "example": "The artist learned how to weave colorful patterns into the fabric"
+  },
+  {
+    "id": 21,
+    "word": "wage",
+    "translation": "לנהל, משכורת",
+    "example": "The workers demanded a higher wage to match the rising cost of living"
+  },
+  {
+    "id": 22,
+    "word": "vivacious",
+    "translation": "מלא חיים, נמרץ",
+    "example": "She has a vivacious personality that lights up every room she enters"
+  },
+  {
+    "id": 23,
+    "word": "vigilance",
+    "translation": "ערנות, דריכות",
+    "example": "Constant vigilance is necessary to ensure public safety"
+  },
+  {
+    "id": 24,
+    "word": "ventilation",
+    "translation": "אוורור",
+    "example": "Proper ventilation is important to maintain clean air indoors"
+  },
+  {
+    "id": 25,
+    "word": "undergo",
+    "translation": "לחוות, להתנסות",
+    "example": "He will undergo surgery next week"
+  },
+  {
+    "id": 26,
+    "word": "underline",
+    "translation": "להדגיש בקו",
+    "example": "The teacher asked us to underline the main idea in the paragraph"
+  },
+  {
+    "id": 27,
+    "word": "teem",
+    "translation": "לשרוץ",
+    "example": "The market was teeming with people on Friday afternoon"
+  },
+  {
+    "id": 28,
+    "word": "summit",
+    "translation": "פסגה",
+    "example": "The two leaders met at the summit to discuss climate issues"
+  },
+  {
+    "id": 29,
+    "word": "stale",
+    "translation": "לא טרי, מעופש",
+    "example": "The bread became stale after being left out overnight"
+  },
+  {
+    "id": 30,
+    "word": "shed",
+    "translation": "להשיל,להסיר",
+    "example": "Trees shed their leaves in the autumn"
+  },
+  {
+    "id": 31,
+    "word": "proscribe",
+    "translation": "לגנות, לאסור",
+    "example": "The government decided to proscribe the use of certain harmful chemicals"
+  },
+  {
+    "id": 32,
+    "word": "orientation",
+    "translation": "מגמה, כיוון, התמצאות",
+    "example": "New students must attend an orientation before classes begin."
+  },
+  {
+    "id": 33,
+    "word": "obstinate",
+    "translation": "עקשן,נוקשה",
+    "example": "He remained obstinate and refused to change his opinion"
+  },
+  {
+    "id": 34,
+    "word": "motif",
+    "translation": "רעיון מרכזי",
+    "example": "A floral motif appeared repeatedly in the artist’s paintings"
+  },
+  {
+    "id": 35,
+    "word": "loom",
+    "translation": "לארוג, להופיע במעורפל",
+    "example": "Dark clouds began to loom over the city"
+  },
+  {
+    "id": 36,
+    "word": "halt",
+    "translation": "לעצור, עצירה",
+    "example": "The police ordered the driver to halt immediately"
+  },
+  {
+    "id": 37,
+    "word": "feud",
+    "translation": "סכסוך, שנאה",
+    "example": "The two families were involved in a long-standing feud"
+  },
+  {
+    "id": 38,
+    "word": "excavate",
+    "translation": "לחפור",
+    "example": "Archaeologists excavated the ancient ruins carefully"
+  },
+  {
+    "id": 39,
+    "word": "eloquent",
+    "translation": "רהוט",
+    "example": "She gave an eloquent speech that moved the audience"
+  },
+  {
+    "id": 40,
+    "word": "distinguish",
+    "translation": "להבחין , להבדיל",
+    "example": "It is sometimes hard to distinguish between fact and opinion"
+  },
+  {
+    "id": 41,
+    "word": "devise",
+    "translation": "לתכנןף להגות",
+    "example": "The team devised a clever solution to the problem"
+  },
+  {
+    "id": 42,
+    "word": "condense",
+    "translation": "לדחוס, לרכז",
+    "example": "You should condense the article into a short summary"
+  },
+  {
+    "id": 43,
+    "word": "coax",
+    "translation": "לשדל, לפתות",
+    "example": "She tried to coax the child into eating his vegetables"
+  },
+  {
+    "id": 44,
+    "word": "avert ",
+    "translation": "למנוע, להסית",
+    "example": "Quick action helped avert a serious accident"
+  }
+]
