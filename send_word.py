@@ -1,39 +1,60 @@
-from telegram import Update
-from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-import random
+import json
+import requests
+import os
+import sys
 
-TOKEN = "8518491594:AAH_RhH7UnjNZQJ38RHtVY8Uk23g2a1qLxQ"
-CHAT_ID = 6986851797
 
-words = [
-    ("Abundant", "שופע", "There is abundant evidence supporting the theory."),
-    ("Reluctant", "מהסס", "He was reluctant to admit his mistake."),
-    ("Vivid", "חי, מוחשי", "She gave a vivid description of the event."),
-]
+TOKEN = os.getenv("TELEGRAM_TOKEN")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
-async def send_word(context: ContextTypes.DEFAULT_TYPE):
-    word = random.choice(words)
+if not TOKEN or not CHAT_ID:
+    print("Missing TELEGRAM_TOKEN or TELEGRAM_CHAT_ID")
+    sys.exit(1)
 
-    text = f"""
-📘 Word: {word[0]}
-📖 Translation: {word[1]}
-✏️ Example: {word[2]}
-"""
 
-    await context.bot.send_message(chat_id=CHAT_ID, text=text)
+with open("words.json", encoding="utf-8") as f:
+    words = json.load(f)
 
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("הבוט התחיל לעבוד 💪")
 
-def main():
-    app = ApplicationBuilder().token(TOKEN).build()
+with open("state.json", encoding="utf-8") as f:
+    state = json.load(f)
 
-    app.add_handler(CommandHandler("start", start))
+index = state.get("index", 0)
 
-    # שליחה כל 8 שעות (3 פעמים ביום)
-    app.job_queue.run_repeating(send_word, interval=28800, first=5)
 
-    app.run_polling()
+if index >= len(words):
+    index = 0
 
-if __name__ == "__main__":
-    main()
+word_data = words[index]
+
+
+message = (
+    f"📚 Daily Word of the Day\n\n"
+    f"🔤 Word: {word_data['word']}\n"
+    f"🇮🇱 Translation: {word_data['translation']}\n"
+    f"💬 Example: {word_data['example']}"
+)
+
+
+url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+
+payload = {
+    "chat_id": CHAT_ID,
+    "text": message
+}
+
+response = requests.post(url, data=payload)
+
+if response.status_code != 200:
+    print("Failed to send message:", response.text)
+    sys.exit(1)
+
+print("Message sent successfully.")
+
+
+state["index"] = index + 1
+
+with open("state.json", "w", encoding="utf-8") as f:
+    json.dump(state, f, ensure_ascii=False, indent=2)
+
+print("State updated.")
