@@ -1,0 +1,30 @@
+name: Send Word
+
+on:
+  schedule:
+    - cron: "0 8,14,18 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run script
+        run: python send_word.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add state.json
+          git commit -m "Update state" || echo "No changes"
+          git push
