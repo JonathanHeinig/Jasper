@@ -15,17 +15,17 @@ if not TOKEN or not CHAT_ID:
 with open("words.json", encoding="utf-8") as f:
     words = json.load(f)
 
-
-with open("state.json", encoding="utf-8") as f:
-    state = json.load(f)
+# ---------- טעינת מצב ----------
+if not os.path.exists("state.json"):
+    state = {"index": 0}
+    with open("state.json", "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+else:
+    with open("state.json", encoding="utf-8") as f:
+        state = json.load(f)
 
 index = state.get("index", 0)
 
-
-if index >= len(words):
-    index = 0
-
-word_data = words[index]
 
 
 message = (
