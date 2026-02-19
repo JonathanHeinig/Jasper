@@ -3,7 +3,6 @@ import requests
 import os
 import sys
 
-
 TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
@@ -11,7 +10,7 @@ if not TOKEN or not CHAT_ID:
     print("Missing TELEGRAM_TOKEN or TELEGRAM_CHAT_ID")
     sys.exit(1)
 
-
+# ---------- טעינת מאגר מילים ----------
 with open("words.json", encoding="utf-8") as f:
     words = json.load(f)
 
@@ -26,8 +25,13 @@ else:
 
 index = state.get("index", 0)
 
+# אם עברנו את הסוף — חוזרים להתחלה
+index = index % len(words)
 
+# 🔥 כאן היה חסר
+word_data = words[index]
 
+# ---------- בניית הודעה ----------
 message = (
     f"📚 Daily Word of the Day\n\n"
     f"🔤 Word: {word_data['word']}\n"
@@ -35,7 +39,7 @@ message = (
     f"💬 Example: {word_data['example']}"
 )
 
-
+# ---------- שליחה לטלגרם ----------
 url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
 
 payload = {
@@ -51,7 +55,7 @@ if response.status_code != 200:
 
 print("Message sent successfully.")
 
-
+# ---------- עדכון אינדקס ----------
 state["index"] = index + 1
 
 with open("state.json", "w", encoding="utf-8") as f:
