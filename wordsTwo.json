@@ -1,0 +1,170 @@
+[
+  {
+    "id": 0,
+    "word": "infiltrate",
+    "translation": "לחדור (בחשאי), להסתנן",
+    "example": "The spy tried to infiltrate the organization without being noticed."
+  },
+  {
+    "id": 1,
+    "word": "inflammation",
+    "translation": "דלקת",
+    "example": "The doctor said the pain was caused by inflammation in the knee"
+  },
+  {
+    "id": 2,
+    "word": "labor",
+    "translation": "עבודה קשה / מאמץ / לידה (בהקשר רפואי)",
+    "example": "Building the house required a lot of labor."
+  },
+  {
+    "id": 3,
+    "word": "concession",
+    "translation": "ויתור (בדרך כלל במשא ומתן)",
+    "example": "After hours of discussion, he finally made a concession."
+  },
+  {
+    "id": 4,
+    "word": "infequisitive",
+    "translation": "סקרן, חוקר",
+    "example": "The child was very inquisitive and asked many questions"
+  },
+  {
+    "id": 5,
+    "word": "Acquaintance",
+    "translation": "מכר (לא חבר קרוב)",
+    "example": "He is just an acquaintance, not a close friend."
+  },
+  {
+    "id": 6,
+    "word": "machinery",
+    "translation": "מכונות / ציוד מכני",
+    "example": "The factory uses heavy machinery to produce goods"
+  },
+  {
+    "id": 7,
+    "word": "meticulous",
+    "translation": "קפדן מאוד, מדויק בפרטים",
+    "example": "She is meticulous and checks every detail carefully."
+  },
+  {
+    "id": 8,
+    "word": "moderate",
+    "translation": "מתון / בינוני",
+    "example": "He has a moderate opinion and avoids extreme views."
+  },
+  {
+    "id": 9,
+    "word": "odor",
+    "translation": "ריח (לרוב לא נעים)",
+    "example": "There was a strange odor coming from the kitchen."
+  },
+  {
+    "id": 10,
+    "word": "omit",
+    "translation": "להשמיט / להשאיר בחוץ",
+    "example": "He forgot to mention her name and omitted it from the list."
+  },
+  {
+    "id": 11,
+    "word": "portion",
+    "translation": "חלק / מנה",
+    "example": "She ate only a small portion of the cake."
+  },
+  {
+    "id": 12,
+    "word": "remedy",
+    "translation": "תרופה / פתרון לבעיה",
+    "example": "This medicine is a good remedy for headaches."
+  },
+  {
+    "id": 13,
+    "word": "scorch",
+    "translation": "לשרוף / לחרוך",
+    "example": "Be careful not to scorch the food while cooking."
+  },
+  {
+    "id": 14,
+    "word": "stem from",
+    "translation": "לנבוע מ־ / להגיע מ־",
+    "example": "His fear stems from a bad experience in childhood."
+  },
+  {
+    "id": 15,
+    "word": "affiliation",
+    "translation": "שייכות / קשר לארגון או קבוצה",
+    "example": "He has no affiliation with that company"
+  },
+  {
+    "id": 16,
+    "word": "bewilder(ment)",
+    "translation": "בלבול",
+    "example": "The complex instructions bewildered him."
+  },
+  {
+    "id": 17,
+    "word": "compensate",
+    "translation": "לפצות",
+    "example": "The company compensated him for the damage."
+  },
+  {
+    "id": 18,
+    "word": "convey",
+    "translation": "להעביר (מסר/מידע)",
+    "example": "She tried to convey her feelings through writing."
+  },
+  {
+    "id": 19,
+    "word": "depict",
+    "translation": "לתאר / להציג (בתמונה, סיפור וכו')",
+    "example": "The movie depicts life in a small village."
+  },
+  {
+    "id": 20,
+    "word": "dexternity",
+    "translation": "מיומנות, זריזות ידיים",
+    "example": "The magician showed great dexterity with his hands."
+  },
+  {
+    "id": 21,
+    "word": "ferment",
+    "translation": "לתסוס / לעורר תסיסה (גם רעיונית)",
+    "example": "The juice was left to ferment for several days."
+  },
+  {
+    "id": 22,
+    "word": "gratify",
+    "translation": "לספק / לשמח",
+    "example": "It gratified him to see his hard work pay off."
+  },
+  {
+    "id": 23,
+    "word": "nocturnal",
+    "translation": "פעיל בלילה",
+    "example": "Owls are nocturnal animals."
+  },
+  {
+    "id": 24,
+    "word": "promptly",
+    "translation": "במהירות / מיד",
+    "example": "She answered the email promptly."
+  },
+  {
+    "id": 25,
+    "word": "roam",
+    "translation": "לשוטט",
+    "example": "He likes to roam around the city at night."
+  },
+  {
+    "id": 26,
+    "word": "stimulate",
+    "translation": "לעורר / לגרות (מחשבה, פעילות וכו')",
+    "example": "Reading can stimulate your imagination."
+  },
+  {
+    "id": 27,
+    "word": "vetetan",
+    "translation": "ותיק / אדם עם ניסיון רב (לעיתים חייל לשעבר)",
+    "example": "He is a veteran teacher with many years of experience."
+  }
+]
