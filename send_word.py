@@ -11,7 +11,7 @@ if not TOKEN or not CHAT_ID:
     sys.exit(1)
 
 # ---------- טעינת מאגר מילים ----------
-with open("wordsTwo.json", encoding="utf-8") as f:
+with open("wordsThree.json", encoding="utf-8") as f:
     words = json.load(f)
 
 # ---------- טעינת מצב ----------
