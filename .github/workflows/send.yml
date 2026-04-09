@@ -2,7 +2,7 @@ name: Send Daily Word
 
 on:
   schedule:
-    - cron: "0 8,14,18 * * *"   # שעות UTC
+    - cron: "0 7,10,13,16 * * *"  # UTC corresponds to 10,13,16,19 Israel time
   workflow_dispatch:
 
 permissions:
@@ -37,4 +37,3 @@ jobs:
           git add state.json
           git commit -m "Update state" || echo "No changes"
           git push
-
